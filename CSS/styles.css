@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+main{
+    margin: 0 auto;
+    max-width: 1240px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+header{
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    padding-bottom:10px;
+    margin-bottom:40px;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    /* Meðan við finnum hvað font family er í h2 */
+    font-family: 'Oswald';
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    justify-content: space-around;
+    padding: 10px;
+    color: #000000;
+    text-decoration: none;
+    
+}
+
+
+.header__main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header__pages{
+    align-content: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+}
+
+.header__title{
+    margin-bottom: 20px;
+    text-align: right;
+}
